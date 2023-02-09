@@ -1,7 +1,10 @@
 {
   "User": {
     "name": {
-      "string": {}
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
     },
     "avatarUrl": {
       "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
@@ -35,8 +38,30 @@
     "description": {
       "loremWords": { "minLength": 5, "maxLength": 20 }
     },
-    "un":{
-      "string":["UN","CX","PC"]
+    "un": {
+      "string": ["UN", "CX", "PC"]
+    }
+  },
+  "Book": {
+    
+    "title": { "loremWords": { "minLength": 5, "maxLength": 20 } },
+    "author": { "string": {} },
+    "author_firstname": { "string": {} },
+    "author_lastname": { "string": {} },
+    "author_middlename": { "string": {} },
+    "categories": {
+      "string": ["python", "pyhton web", "development", "flask"]
+    },
+    "volume": { "int": { "min": 1, "max": 50 } },
+    "year": { "int": { "min": 2000, "max": 2023 } },    
+    "language": { "string": ["Pt-br", "es", "es", "ru"] },
+    "extension": { "string": ["pdf", "odf", "doc", "jpg"] },
+    "pages": { "int": { "min": 0, "max": 5000 } },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
     }
   }
 }
