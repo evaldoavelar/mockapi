@@ -45,10 +45,10 @@
   "Book": {
     
     "title": { "loremWords": { "minLength": 5, "maxLength": 20 } },
-    "author": { "string": {} },
-    "author_firstname": { "string": {} },
-    "author_lastname": { "string": {} },
-    "author_middlename": { "string": {} },
+    "author":  { "loremWords": { "minLength": 5, "maxLength": 20 } },
+    "author_firstname":  { "loremWords": { "minLength": 5, "maxLength": 20 } },
+    "author_lastname":  { "loremWords": { "minLength": 5, "maxLength": 20 } },
+    "author_middlename":  { "loremWords": { "minLength": 5, "maxLength": 20 } },
     "categories": {
       "string": ["python", "pyhton web", "development", "flask"]
     },
