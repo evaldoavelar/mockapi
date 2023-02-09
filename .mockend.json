@@ -44,11 +44,11 @@
   },
   "Book": {
     
-    "title": { "loremWords": { "minLength": 5, "maxLength": 20 } },
+    "title": { "loremWords": { "minLength": 5, "maxLength": 60 } },
     "author":  { "loremWords": { "minLength": 5, "maxLength": 20 } },
-    "author_firstname":  { "loremWords": { "minLength": 5, "maxLength": 20 } },
-    "author_lastname":  { "loremWords": { "minLength": 5, "maxLength": 20 } },
-    "author_middlename":  { "loremWords": { "minLength": 5, "maxLength": 20 } },
+    "author_firstname":  { "loremWords": { "minLength": 5, "maxLength": 40 } },
+    "author_lastname":  { "loremWords": { "minLength": 5, "maxLength": 40 } },
+    "author_middlename":  { "loremWords": { "minLength": 5, "maxLength": 40 } },
     "categories": {
       "string": ["python", "pyhton web", "development", "flask"]
     },
